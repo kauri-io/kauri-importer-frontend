@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+
+client-secret.json
+credentials.tar.gz
+
+*.swp

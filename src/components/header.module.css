@@ -1,0 +1,17 @@
+
+.title {
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 28px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    margin-bottom: 0px;
+    margin-right: 10px;
+}

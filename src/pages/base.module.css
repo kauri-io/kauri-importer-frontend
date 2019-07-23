@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 15px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 40px;
+    width: 184px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(11, 169, 134);
+    border-radius: 4px;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(11, 169, 134) !important;
+    border-image: initial !important;
+    transition: none 0s ease 0s !important;
+    line-height: 1.5;
+    font-weight: 400;
+    touch-action: manipulation;
+    cursor: pointer;
+    font-size: 15px;
+    user-select: none;
+    text-transform: uppercase;
+    float: left;
+}
+
+.url {
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-left: 5px;
+    padding-left: 5px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.instructions {
+    font-size: 16px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+
+.wpLink {
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-left: 580px;
+  margin-top: -31px;
+  padding-left: 5px;
+  width: 300px;
+  font-size: 14px;
+  display: flex;
+}
+
+.choose{
+  width: 230px;
+}
+
+.wpLabel{
+  box-sizing: border-box;
+  margin-left: 15px;
+}
+
+#guidelines ,h3 {
+  font-size: 20px;
+  box-sizing: border-box;
+  margin-right: 200px;
+  margin-top: 40px;
+
+}
+#guidelines, p {
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+#guidelines, #note {
+  box-sizing: border-box;
+  margin-top: 20px
+}
