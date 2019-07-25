@@ -51,5 +51,6 @@ jobs:
           - cd kauri-ops
           - source env_setup.sh --config-file config/config-dev.json
       script:
+          - cd kauri-ops
           - bash ./build-docker-image.sh 0.0.1
           - bash ./k8s/redeploy-k8s.sh 0.0.1
