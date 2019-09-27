@@ -10,6 +10,13 @@ const url = 'https://kauri.io'
 const token = Cookies.get('TOKEN')
 const userId = Cookies.get('USER_ID')
 
+let app_url = process.env.GATSBY_API_URL;
+
+if (window.document.domain !== 'localhost') {
+    getTokenOrRedirect()
+}
+
+/*
 let app_url = typeof window !== 'undefined' && window.document.domain
 
 if (app_url === 'localhost') {
@@ -20,7 +27,7 @@ if (app_url === 'localhost') {
   getTokenOrRedirect()
   app_url = 'https://' + app_url
 }
-
+*/
 function getTokenOrRedirect() {
     if (token === undefined && typeof window !== 'undefined') {
         alert('To use the importer, please first login on Kauri')
